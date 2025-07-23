@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Démographique</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #4f46e5;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1.1em;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .chart-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .chart-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #374151;
+            text-align: center;
+        }
+
+        .chart-canvas {
+            position: relative;
+            height: 400px;
+            width: 100%;
+        }
+
+        .filters {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .filters h3 {
+            margin-bottom: 20px;
+            color: #374151;
+        }
+
+        .filter-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-item label {
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #6b7280;
+        }
+
+        .filter-item select, .filter-item input {
+            padding: 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-item select:focus, .filter-item input:focus {
+            outline: none;
+            border-color: #4f46e5;
+        }
+
+        .pyramid-chart {
+            height: 500px;
+            width: 100%;
+        }
+
+        .treemap-chart {
+            height: 400px;
+            width: 100%;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #6b7280;
+        }
+
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f4f6;
+            border-top: 3px solid #4f46e5;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .export-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .export-btn {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .export-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Dashboard Démographique</h1>
+            <p>Analyse interactive des données de population</p>
+        </div>
+
+        <div class="export-buttons">
+            <button class="export-btn" onclick="exportToPDF()">📄 Exporter PDF</button>
+            <button class="export-btn" onclick="exportToExcel()">📊 Exporter Excel</button>
+            <button class="export-btn" onclick="printDashboard()">🖨️ Imprimer</button>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="totalPopulation">125,847</div>
+                <div class="stat-label">Population Totale</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="ageMoyen">32.4</div>
+                <div class="stat-label">Âge Moyen</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="tauxActivite">64.2%</div>
+                <div class="stat-label">Taux d'Activité</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="tauxAlphabetisation">73.8%</div>
+                <div class="stat-label">Taux d'Alphabétisation</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <h3>🎛️ Filtres et Options</h3>
+            <div class="filter-group">
+                <div class="filter-item">
+                    <label for="regionFilter">Région</label>
+                    <select id="regionFilter" onchange="updateCharts()">
+                        <option value="">Toutes les régions</option>
+                        <option value="1">Casablanca-Settat</option>
+                        <option value="2">Rabat-Salé-Kénitra</option>
+                        <option value="3">Fès-Meknès</option>
+                        <option value="4">Marrakech-Safi</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="milieuFilter">Milieu</label>
+                    <select id="milieuFilter" onchange="updateCharts()">
+                        <option value="">Tous les milieux</option>
+                        <option value="1">Urbain</option>
+                        <option value="2">Rural</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="sexeFilter">Sexe</label>
+                    <select id="sexeFilter" onchange="updateCharts()">
+                        <option value="">Tous</option>
+                        <option value="1">Masculin</option>
+                        <option value="2">Féminin</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="ageRange">Tranche d'âge</label>
+                    <select id="ageRange" onchange="updateCharts()">
+                        <option value="">Tous les âges</option>
+                        <option value="0-14">0-14 ans</option>
+                        <option value="15-64">15-64 ans</option>
+                        <option value="65+">65+ ans</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-container">
+                <div class="chart-title">👥 Répartition par Sexe</div>
+                <canvas id="sexeChart" class="chart-canvas"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">📊 Pyramide des Âges</div>
+                <div id="pyramidChart" class="pyramid-chart"></div>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">🏘️ Population par Milieu</div>
+                <canvas id="milieuChart" class="chart-canvas"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">🎓 Niveau d'Éducation</div>
+                <canvas id="educationChart" class="chart-canvas"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">💼 Activité Économique</div>
+                <canvas id="activiteChart" class="chart-canvas"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">🌍 Répartition par Région</div>
+                <div id="treemapChart" class="treemap-chart"></div>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">💒 État Matrimonial</div>
+                <canvas id="matrimonialChart" class="chart-canvas"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title">🏠 Types de Ménages</div>
+                <canvas id="menagesChart" class="chart-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration globale des graphiques
+        Chart.defaults.font.family = 'Segoe UI';
+        Chart.defaults.plugins.legend.position = 'bottom';
+        Chart.defaults.plugins.legend.labels.usePointStyle = true;
+
+        // Données simulées (à remplacer par des appels API Django)
+        const mockData = {
+            sexe: [
+                { label: 'Masculin', value: 52486, color: '#3b82f6' },
+                { label: 'Féminin', value: 53361, color: '#ec4899' }
+            ],
+            milieu: [
+                { label: 'Urbain', value: 78548, color: '#10b981' },
+                { label: 'Rural', value: 47299, color: '#f59e0b' }
+            ],
+            education: [
+                { label: 'Aucun', value: 28450, color: '#ef4444' },
+                { label: 'Primaire', value: 35620, color: '#f97316' },
+                { label: 'Secondaire', value: 42380, color: '#eab308' },
+                { label: 'Supérieur', value: 19397, color: '#22c55e' }
+            ],
+            activite: [
+                { label: 'Actif occupé', value: 45230, color: '#06b6d4' },
+                { label: 'Chômeur', value: 8940, color: '#ef4444' },
+                { label: 'Inactif', value: 71677, color: '#6b7280' }
+            ],
+            matrimonial: [
+                { label: 'Célibataire', value: 48230, color: '#8b5cf6' },
+                { label: 'Marié(e)', value: 63450, color: '#10b981' },
+                { label: 'Divorcé(e)', value: 8920, color: '#f59e0b' },
+                { label: 'Veuf(ve)', value: 5247, color: '#6b7280' }
+            ]
+        };
+
+        // Fonction pour créer un graphique en secteurs amélioré
+        function createPieChart(canvasId, data, title) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            
+            return new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: data.map(d => d.label),
+                    datasets: [{
+                        data: data.map(d => d.value),
+                        backgroundColor: data.map(d => d.color),
+                        borderWidth: 3,
+                        borderColor: '#ffffff',
+                        hoverBorderWidth: 5,
+                        hoverBorderColor: '#ffffff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                font: {
+                                    size: 12
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((context.parsed * 100) / total).toFixed(1);
+                                    return `${context.label}: ${context.parsed.toLocaleString()} (${percentage}%)`;
+                                }
+                            }
+                        }
+                    },
+                    animation: {
+                        animateScale: true,
+                        animateRotate: true
+                    }
+                }
+            });
+        }
+
+        // Fonction pour créer un graphique en barres
+        function createBarChart(canvasId, data, title) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            
+            return new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.map(d => d.label),
+                    datasets: [{
+                        label: title,
+                        data: data.map(d => d.value),
+                        backgroundColor: data.map(d => d.color),
+                        borderRadius: 8,
+                        borderSkipped: false,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return value.toLocaleString();
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Fonction pour créer la pyramide des âges
+        function createPyramidChart() {
+            const pyramidData = [
+                { age: '0-4', hommes: -2500, femmes: 2300 },
+                { age: '5-9', hommes: -2800, femmes: 2650 },
+                { age: '10-14', hommes: -3200, femmes: 2900 },
+                { age: '15-19', hommes: -3800, femmes: 3500 },
+                { age: '20-24', hommes: -4200, femmes: 3900 },
+                { age: '25-29', hommes: -4800, femmes: 4600 },
+                { age: '30-34', hommes: -5200, femmes: 4900 },
+                { age: '35-39', hommes: -4900, femmes: 4700 },
+                { age: '40-44', hommes: -4500, femmes: 4300 },
+                { age: '45-49', hommes: -4000, femmes: 3800 },
+                { age: '50-54', hommes: -3500, femmes: 3300 },
+                { age: '55-59', hommes: -3000, femmes: 2800 },
+                { age: '60-64', hommes: -2500, femmes: 2300 },
+                { age: '65-69', hommes: -2000, femmes: 1800 },
+                { age: '70-74', hommes: -1500, femmes: 1300 },
+                { age: '75-79', hommes: -1000, femmes: 900 },
+                { age: '80+', hommes: -500, femmes: 600 }
+            ];
+
+            const svg = d3.select('#pyramidChart')
+                .append('svg')
+                .attr('width', '100%')
+                .attr('height', '100%');
+
+            const margin = { top: 20, right: 50, bottom: 40, left: 100 };
+            const width = 500 - margin.left - margin.right;
+            const height = 460 - margin.top - margin.bottom;
+
+            const g = svg.append('g')
+                .attr('transform', `translate(${margin.left},${margin.top})`);
+
+            const xScale = d3.scaleLinear()
+                .domain([-6000, 6000])
+                .range([0, width]);
+
+            const yScale = d3.scaleBand()
+                .domain(pyramidData.map(d => d.age))
+                .range([height, 0])
+                .padding(0.1);
+
+            // Barres pour les hommes
+            g.selectAll('.bar-hommes')
+                .data(pyramidData)
+                .enter()
+                .append('rect')
+                .attr('class', 'bar-hommes')
+                .attr('x', d => xScale(d.hommes))
+                .attr('y', d => yScale(d.age))
+                .attr('width', d => xScale(0) - xScale(d.hommes))
+                .attr('height', yScale.bandwidth())
+                .attr('fill', '#3b82f6');
+
+            // Barres pour les femmes
+            g.selectAll('.bar-femmes')
+                .data(pyramidData)
+                .enter()
+                .append('rect')
+                .attr('class', 'bar-femmes')
+                .attr('x', xScale(0))
+                .attr('y', d => yScale(d.age))
+                .attr('width', d => xScale(d.femmes) - xScale(0))
+                .attr('height', yScale.bandwidth())
+                .attr('fill', '#ec4899');
+
+            // Axe Y
+            g.append('g')
+                .attr('transform', `translate(${xScale(0)},0)`)
+                .call(d3.axisLeft(yScale));
+
+            // Axe X
+            g.append('g')
+                .attr('transform', `translate(0,${height})`)
+                .call(d3.axisBottom(xScale)
+                    .tickFormat(d => Math.abs(d).toLocaleString()));
+
+            // Légende
+            const legend = g.append('g')
+                .attr('transform', `translate(${width - 100}, 20)`);
+
+            legend.append('rect')
+                .attr('width', 15)
+                .attr('height', 15)
+                .attr('fill', '#3b82f6');
+
+            legend.append('text')
+                .attr('x', 20)
+                .attr('y', 12)
+                .text('Hommes')
+                .style('font-size', '12px');
+
+            legend.append('rect')
+                .attr('y', 20)
+                .attr('width', 15)
+                .attr('height', 15)
+                .attr('fill', '#ec4899');
+
+            legend.append('text')
+                .attr('x', 20)
+                .attr('y', 32)
+                .text('Femmes')
+                .style('font-size', '12px');
+        }
+
+        // Fonction pour créer le treemap
+        function createTreemap() {
+            const treemapData = {
+                name: 'Régions',
+                children: [
+                    { name: 'Casablanca-Settat', value: 35420 },
+                    { name: 'Rabat-Salé-Kénitra', value: 28350 },
+                    { name: 'Fès-Meknès', value: 22180 },
+                    { name: 'Marrakech-Safi', value: 18950 },
+                    { name: 'Tanger-Tétouan', value: 12890 },
+                    { name: 'Souss-Massa', value: 8057 }
+                ]
+            };
+
+            const svg = d3.select('#treemapChart')
+                .append('svg')
+                .attr('width', '100%')
+                .attr('height', '100%');
+
+            const width = 500;
+            const height = 400;
+
+            const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+            const treemap = d3.treemap()
+                .size([width, height])
+                .padding(2);
+
+            const root = d3.hierarchy(treemapData)
+                .sum(d => d.value);
+
+            treemap(root);
+
+            const leaf = svg.selectAll('g')
+                .data(root.leaves())
+                .enter()
+                .append('g')
+                .attr('transform', d => `translate(${d.x0},${d.y0})`);
+
+            leaf.append('rect')
+                .attr('width', d => d.x1 - d.x0)
+                .attr('height', d => d.y1 - d.y0)
+                .attr('fill', (d, i) => color(i))
+                .attr('stroke', '#fff')
+                .attr('stroke-width', 2);
+
+            leaf.append('text')
+                .attr('x', 5)
+                .attr('y', 20)
+                .text(d => d.data.name)
+                .style('font-size', '12px')
+                .style('fill', 'white')
+                .style('font-weight', 'bold');
+
+            leaf.append('text')
+                .attr('x', 5)
+                .attr('y', 35)
+                .text(d => d.data.value.toLocaleString())
+                .style('font-size', '10px')
+                .style('fill', 'white');
+        }
+
+        // Initialisation des graphiques
+        function initCharts() {
+            createPieChart('sexeChart', mockData.sexe, 'Répartition par Sexe');
+            createBarChart('milieuChart', mockData.milieu, 'Population par Milieu');
+            createBarChart('educationChart', mockData.education, 'Niveau d\'Éducation');
+            createPieChart('activiteChart', mockData.activite, 'Activité Économique');
+            createPieChart('matrimonialChart', mockData.matrimonial, 'État Matrimonial');
+            createBarChart('menagesChart', [
+                { label: '1-3 personnes', value: 18500, color: '#8b5cf6' },
+                { label: '4-6 personnes', value: 35200, color: '#06b6d4' },
+                { label: '7-9 personnes', value: 15800, color: '#10b981' },
+                { label: '10+ personnes', value: 4200, color: '#f59e0b' }
+            ], 'Types de Ménages');
+            
+            createPyramidChart();
+            createTreemap();
+        }
+
+        // Fonction pour mettre à jour les graphiques
+        function updateCharts() {
+            // Ici vous pouvez ajouter la logique pour récupérer les données filtrées
+            console.log('Mise à jour des graphiques avec les filtres');
+        }
+
+        // Fonctions d'export
+        function exportToPDF() {
+            window.print();
+        }
+
+        function exportToExcel() {
+            alert('Fonctionnalité d\'export Excel - À implémenter avec votre backend Django');
+        }
+
+        function printDashboard() {
+            window.print();
+        }
+
+        // Animation des statistiques
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-number');
+            counters.forEach(counter => {
+                const target = parseInt(counter.textContent.replace(/,/g, ''));
+                let current = 0;
+                const increment = target / 100;
+                
+                const updateCounter = () => {
+                    if (current < target) {
+                        current += increment;
+                        counter.textContent = Math.ceil(current).toLocaleString();
+                        requestAnimationFrame(updateCounter);
+                    } else {
+                        counter.textContent = target.toLocaleString();
+                    }
+                };
+                
+                updateCounter();
+            });
+        }
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            initCharts();
+            animateCounters();
+        });
+    </script>
+</body>
+</html>

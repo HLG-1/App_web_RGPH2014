@@ -1,0 +1,780 @@
+Internal Server Error: /api/statistiques-globales/
+"GET /api/statistiques-globales/ HTTP/1.1" 500 76
+Internal Server Error: /api/statistiques-globales/
+"GET /api/statistiques-globales/ HTTP/1.1" 500 76
+Internal Server Error: /api/statistiques-globales/
+"GET /api/statistiques-globales/ HTTP/1.1" 500 76
+Internal Server Error: /api/statistiques-globales/
+"GET /api/statistiques-globales/ HTTP/1.1" 500 76
+Internal Server Error: /api/statistiques-globales/
+"GET /api/statistiques-globales/ HTTP/1.1" 500 76
+Internal Server Error: /api/statistiques-globales/
+"GET /api/statistiques-globales/ HTTP/1.1" 500 76
+Internal Server Error: /api/population-age/
+Internal Server Error: /api/population-age/
+"GET /api/population-age/ HTTP/1.1" 500 215
+Internal Server Error: /api/statistiques-globales/
+"GET /api/statistiques-globales/ HTTP/1.1" 500 215
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/ HTTP/1.1" 500 9190
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/?region=4 HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1104
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/?region=4&sexe=1 HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 49
+Internal Server Error: /api/demographic/menages_analysis/
+"GET /api/demographic/menages_analysis/ HTTP/1.1" 500 10551
+Internal Server Error: /api/demographic/statut_professionnel/
+"GET /api/demographic/statut_professionnel/ HTTP/1.1" 500 122
+Internal Server Error: /api/demographic/statut_professionnel/
+"GET /api/demographic/statut_professionnel/ HTTP/1.1" 500 122
+Internal Server Error: /api/demographic/statut_professionnel/
+"GET /api/demographic/statut_professionnel/ HTTP/1.1" 500 122
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1108
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1108
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/ HTTP/1.1" 500 1108
+Internal Server Error: /api/demographic/niveau_education_par_milieu/
+Internal Server Error: /api/demographic/aptitude_lecture_ecriture/
+"GET /api/demographic/niveau_education_par_milieu/ HTTP/1.1" 500 1119
+"GET /api/demographic/aptitude_lecture_ecriture/ HTTP/1.1" 500 1115
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/ HTTP/1.1" 500 1108
+Internal Server Error: /api/demographic/niveau_education_par_milieu/
+"GET /api/demographic/niveau_education_par_milieu/ HTTP/1.1" 500 1119
+Internal Server Error: /api/demographic/aptitude_lecture_ecriture/
+"GET /api/demographic/aptitude_lecture_ecriture/ HTTP/1.1" 500 1115
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/? HTTP/1.1" 500 1108
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/ HTTP/1.1" 500 11535
+Internal Server Error: /api/demographic/aptitude_lecture_ecriture/
+"GET /api/demographic/aptitude_lecture_ecriture/ HTTP/1.1" 500 11642
+Internal Server Error: /api/demographic/niveau_education_par_milieu/
+Internal Server Error: /api/demographic/niveau_education/
+"GET /api/demographic/niveau_education/ HTTP/1.1" 500 1108
+"GET /api/demographic/niveau_education_par_milieu/ HTTP/1.1" 500 1119
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/?region=7 HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/?region=12 HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/?region=3 HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/?region=4 HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/?region=11 HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/?region=3 HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/?region=12 HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 10716
+Internal Server Error: /api/demographic/secteurs_economiques/
+"GET /api/demographic/secteurs_economiques/ HTTP/1.1" 500 10652
+Internal Server Error: /api/demographic/professions_analysis/
+"GET /api/demographic/professions_analysis/ HTTP/1.1" 500 52
+Internal Server Error: /api/demographic/secteurs_economiques/
+"GET /api/demographic/secteurs_economiques/ HTTP/1.1" 500 62
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/ HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/statut_professionnel/
+"GET /api/demographic/statut_professionnel/ HTTP/1.1" 500 122
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 10716
+Internal Server Error: /api/demographic/professions_analysis/
+Internal Server Error: /api/demographic/secteurs_economiques/
+"GET /api/demographic/secteurs_economiques/ HTTP/1.1" 500 62
+"GET /api/demographic/professions_analysis/ HTTP/1.1" 500 52
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/ HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/statut_professionnel/
+"GET /api/demographic/statut_professionnel/ HTTP/1.1" 500 122
+Internal Server Error: /api/demographic/professions_analysis/
+"GET /api/demographic/professions_analysis/ HTTP/1.1" 500 52
+Internal Server Error: /api/demographic/secteurs_economiques/
+"GET /api/demographic/secteurs_economiques/ HTTP/1.1" 500 62
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/ HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/statut_professionnel/
+"GET /api/demographic/statut_professionnel/ HTTP/1.1" 500 122
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/secteurs_economiques/
+"GET /api/demographic/secteurs_economiques/ HTTP/1.1" 500 10652
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/ HTTP/1.1" 500 10716
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/professions_analysis/
+"GET /api/demographic/professions_analysis/ HTTP/1.1" 500 52
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/ HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/statut_professionnel/
+"GET /api/demographic/statut_professionnel/ HTTP/1.1" 500 122
+Internal Server Error: /api/demographic/secteurs_economiques/
+"GET /api/demographic/secteurs_economiques/ HTTP/1.1" 500 123
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/activite_economique/
+"GET /api/demographic/activite_economique/? HTTP/1.1" 500 118
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 11812
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 10965
+Internal Server Error: /api/demographic/femme-chef-menage-milieu-age/
+"GET /api/demographic/femme-chef-menage-milieu-age/ HTTP/1.1" 500 11471
+Internal Server Error: /api/demographic/femme-chef-menage-milieu-age/
+"GET /api/demographic/femme-chef-menage-milieu-age/ HTTP/1.1" 500 11471
+Internal Server Error: /api/demographic/femme-chef-menage-milieu-age/
+"GET /api/demographic/femme-chef-menage-milieu-age/ HTTP/1.1" 500 11471
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 11278
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 11278
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 143
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 11278
+Internal Server Error: /api/demographic/emploi-education/
+"GET /api/demographic/emploi-education/ HTTP/1.1" 500 11277
+Internal Server Error: /api/demographic/niveau_education_par_milieu/
+"GET /api/demographic/niveau_education_par_milieu/ HTTP/1.1" 500 92
+Internal Server Error: /api/menages/distribution-taille/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\env\HCP_app\recensement\views.py", line 2294, in distribution_taille_categorisee
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\fields.py", line 921, in to_representation
+    return int(value)
+ValueError: invalid literal for int() with base 10: '1-3 personnes'
+"GET /api/menages/distribution-taille/ HTTP/1.1" 500 135858
+Internal Server Error: /api/menages/statistiques-globales/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\env\HCP_app\recensement\views.py", line 2506, in statistiques_globales
+    stats = Menage.objects.aggregate(
+        total_menages=Count('id'),
+    ...<6 lines>...
+        score_equipement_moyen=Avg('niveau_equipement_score')
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\query.py", line 588, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 460, in get_aggregation
+    aggregate = aggregate_expr.resolve_expression(
+        self, allow_joins=True, reuse=None, summarize=True
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\aggregates.py", line 63, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 300, in resolve_expression
+    expr.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 902, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 2049, in resolve_ref
+    join_info = self.setup_joins(
+        field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1900, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+                                       ~~~~~~~~~~~~~~~~~~^
+        names[:pivot],
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        fail_on_missing=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'niveau_equipement_score' into field. Choices are: age_logement, baignoire_douche, bain_local, cuisine, date_creation, date_modification, distance_eau, distance_route, duree_eau, evacuation_dechets, evacuation_eaux_usees, id, materiaux_murs, materiaux_sol, materiaux_toit, menages_avec_eau_courante, menages_avec_electricite, menages_proprietaires, menages_ruraux, menages_urbains, milieu, mode_eau, mode_eclairage, nombre_camions, nombre_motocycles, nombre_pieces, nombre_tracteurs, nombre_voitures, numero_menage, poids, possede_internet, possede_ordinateur, possede_parabole, possede_radio, possede_refrigerateur, possede_telephone_fixe, possede_telephone_portable, possede_television, province, region, statut_occupation, taille_menage, taille_moyenne_globale, total_menages, type_logement, type_menage, utilisation_bois, utilisation_charbon, utilisation_dejections_animales, utilisation_electricite, utilisation_gaz, wc
+"GET /api/menages/statistiques-globales/ HTTP/1.1" 500 156618
+Internal Server Error: /api/menages/region/1/
+"GET /api/menages/region/1/ HTTP/1.1" 500 6385
+Internal Server Error: /api/menages/analyse-avancee/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\env\HCP_app\recensement\views.py", line 2639, in analyse_avancee
+    stats = queryset.aggregate(
+        total_menages=Count('id'),
+    ...<4 lines>...
+        menages_avec_eau_courante=Count('id', filter=Q(mode_eau__lte=2))
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\query.py", line 588, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 460, in get_aggregation
+    aggregate = aggregate_expr.resolve_expression(
+        self, allow_joins=True, reuse=None, summarize=True
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\aggregates.py", line 63, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 300, in resolve_expression
+    expr.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 902, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 2049, in resolve_ref
+    join_info = self.setup_joins(
+        field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1900, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+                                       ~~~~~~~~~~~~~~~~~~^
+        names[:pivot],
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        fail_on_missing=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'niveau_equipement_score' into field. Choices are: age_logement, baignoire_douche, bain_local, cuisine, date_creation, date_modification, distance_eau, distance_route, duree_eau, evacuation_dechets, evacuation_eaux_usees, id, materiaux_murs, materiaux_sol, materiaux_toit, milieu, mode_eau, mode_eclairage, nombre_camions, nombre_motocycles, nombre_pieces, nombre_tracteurs, nombre_voitures, numero_menage, poids, possede_internet, possede_ordinateur, possede_parabole, possede_radio, possede_refrigerateur, possede_telephone_fixe, possede_telephone_portable, possede_television, province, region, statut_occupation, taille_menage, taille_moyenne, total_menages, type_logement, type_menage, utilisation_bois, utilisation_charbon, utilisation_dejections_animales, utilisation_electricite, utilisation_gaz, wc
+"GET /api/menages/analyse-avancee/ HTTP/1.1" 500 150803
+Internal Server Error: /api/menages/analyse-avancee/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\env\HCP_app\recensement\views.py", line 2640, in analyse_avancee
+    stats = queryset.aggregate(
+        total_menages=Count('id'),
+    ...<4 lines>...
+        menages_avec_eau_courante=Count('id', filter=Q(mode_eau__lte=2))
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\query.py", line 588, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 460, in get_aggregation
+    aggregate = aggregate_expr.resolve_expression(
+        self, allow_joins=True, reuse=None, summarize=True
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\aggregates.py", line 63, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 300, in resolve_expression
+    expr.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 902, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 2049, in resolve_ref
+    join_info = self.setup_joins(
+        field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1900, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+                                       ~~~~~~~~~~~~~~~~~~^
+        names[:pivot],
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        fail_on_missing=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'niveau_equipement_score' into field. Choices are: age_logement, baignoire_douche, bain_local, cuisine, date_creation, date_modification, distance_eau, distance_route, duree_eau, evacuation_dechets, evacuation_eaux_usees, id, materiaux_murs, materiaux_sol, materiaux_toit, milieu, mode_eau, mode_eclairage, nombre_camions, nombre_motocycles, nombre_pieces, nombre_tracteurs, nombre_voitures, numero_menage, poids, possede_internet, possede_ordinateur, possede_parabole, possede_radio, possede_refrigerateur, possede_telephone_fixe, possede_telephone_portable, possede_television, province, region, statut_occupation, taille_menage, taille_moyenne, total_menages, type_logement, type_menage, utilisation_bois, utilisation_charbon, utilisation_dejections_animales, utilisation_electricite, utilisation_gaz, wc
+"GET /api/menages/analyse-avancee/ HTTP/1.1" 500 150940
+Internal Server Error: /api/menages/distribution-taille/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\env\HCP_app\recensement\views.py", line 2294, in distribution_taille_categorisee
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\fields.py", line 921, in to_representation
+    return int(value)
+ValueError: invalid literal for int() with base 10: '1-3 personnes'
+"GET /api/menages/distribution-taille/ HTTP/1.1" 500 135858
+Internal Server Error: /api/menages/statistiques-globales/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\env\HCP_app\recensement\views.py", line 2506, in statistiques_globales
+    stats = Menage.objects.aggregate(
+        total_menages=Count('id'),
+    ...<6 lines>...
+        score_equipement_moyen=Avg('niveau_equipement_score')
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\query.py", line 588, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 460, in get_aggregation
+    aggregate = aggregate_expr.resolve_expression(
+        self, allow_joins=True, reuse=None, summarize=True
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\aggregates.py", line 63, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 300, in resolve_expression
+    expr.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 902, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 2049, in resolve_ref
+    join_info = self.setup_joins(
+        field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1900, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+                                       ~~~~~~~~~~~~~~~~~~^
+        names[:pivot],
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        fail_on_missing=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'niveau_equipement_score' into field. Choices are: age_logement, baignoire_douche, bain_local, cuisine, date_creation, date_modification, distance_eau, distance_route, duree_eau, evacuation_dechets, evacuation_eaux_usees, id, materiaux_murs, materiaux_sol, materiaux_toit, menages_avec_eau_courante, menages_avec_electricite, menages_proprietaires, menages_ruraux, menages_urbains, milieu, mode_eau, mode_eclairage, nombre_camions, nombre_motocycles, nombre_pieces, nombre_tracteurs, nombre_voitures, numero_menage, poids, possede_internet, possede_ordinateur, possede_parabole, possede_radio, possede_refrigerateur, possede_telephone_fixe, possede_telephone_portable, possede_television, province, region, statut_occupation, taille_menage, taille_moyenne_globale, total_menages, type_logement, type_menage, utilisation_bois, utilisation_charbon, utilisation_dejections_animales, utilisation_electricite, utilisation_gaz, wc
+"GET /api/menages/statistiques-globales/ HTTP/1.1" 500 156618
+Internal Server Error: /api/menages/analyse-avancee/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\env\HCP_app\recensement\views.py", line 2656, in analyse_avancee
+    stats = queryset.aggregate(
+        total_menages=Count('id'),
+    ...<4 lines>...
+        menages_avec_eau_courante=Count('id', filter=Q(mode_eau__lte=2))
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\query.py", line 588, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 460, in get_aggregation
+    aggregate = aggregate_expr.resolve_expression(
+        self, allow_joins=True, reuse=None, summarize=True
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\aggregates.py", line 63, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 300, in resolve_expression
+    expr.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\expressions.py", line 902, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 2049, in resolve_ref
+    join_info = self.setup_joins(
+        field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse
+    )
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1900, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+                                       ~~~~~~~~~~~~~~~~~~^
+        names[:pivot],
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        fail_on_missing=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\env\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'niveau_equipement_score' into field. Choices are: age_logement, baignoire_douche, bain_local, cuisine, date_creation, date_modification, distance_eau, distance_route, duree_eau, evacuation_dechets, evacuation_eaux_usees, id, materiaux_murs, materiaux_sol, materiaux_toit, milieu, mode_eau, mode_eclairage, nombre_camions, nombre_motocycles, nombre_pieces, nombre_tracteurs, nombre_voitures, numero_menage, poids, possede_internet, possede_ordinateur, possede_parabole, possede_radio, possede_refrigerateur, possede_telephone_fixe, possede_telephone_portable, possede_television, province, region, statut_occupation, taille_menage, taille_moyenne, total_menages, type_logement, type_menage, utilisation_bois, utilisation_charbon, utilisation_dejections_animales, utilisation_electricite, utilisation_gaz, wc
+"GET /api/menages/analyse-avancee/ HTTP/1.1" 500 150803
