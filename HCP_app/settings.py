@@ -143,14 +143,21 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'HCP_app.wsgi.application'
 
+# Configuration base de données
+DATABASE_URL = os.environ.get('DATABASE_URL')
 
-# settings.py
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'data_recensement',
+if DATABASE_URL:
+    # En production (Railway) - quand DATABASE_URL existe
+    DATABASES = {
+        'default': dj_database_url.parse(DATABASE_URL)
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'data_recensement',
         'USER': 'recensement_user',
-        'PASSWORD': 'HCP2014',  # ton mot de passe
+        'PASSWORD': 'HCP2014',  
         'HOST': 'localhost',
         'PORT': '5432',
     }
